@@ -1,3 +1,3 @@
 # Personal Website
 
-Hosted at [lucafluri.ch](lucafluri.ch)
+Hosted at [lucafluri.ch](http://www.lucafluri.ch)

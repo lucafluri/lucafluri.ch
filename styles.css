@@ -131,13 +131,13 @@ p {
 @media (min-width: 800px) {
 
   body {
-      background: -webkit-radial-gradient(#$lightBackground-color: #252525, #202020) fixed;
+      background: -webkit-radial-gradient(#252525, #202020) fixed;
       /* For Safari 5.1 to 6.0 */
-      background: -o-radial-gradient(#$lightBackground-color: #252525, #202020) fixed;
+      background: -o-radial-gradient(#252525, #202020) fixed;
       /* For Opera 11.1 to 12.0 */
-      background: -moz-radial-gradient(#$lightBackground-color: #252525, #202020) fixed;
+      background: -moz-radial-gradient(#252525, #202020) fixed;
       /* For Firefox 3.6 to 15 */
-      background: radial-gradient(#$lightBackground-color: #252525, #202020) fixed;
+      background: radial-gradient(#252525, #202020) fixed;
       /* Standard syntax */
       background-repeat: repeat;
       background-size: cover;

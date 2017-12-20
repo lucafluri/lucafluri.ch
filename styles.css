@@ -127,6 +127,16 @@ p {
     transform: translate(-50%);
 }
 
+#counter {
+    font-size: 7px;
+    text-align: center;
+    position: relative;
+    height: 8px;
+    width:auto;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%);
+}
 
 @media (min-width: 800px) {
 
@@ -242,6 +252,17 @@ p {
       font-size: 7px;
       text-align: center;
       position: relative;
+      left: 50%;
+      top: 20px;
+      transform: translate(-50%);
+  }
+
+  #counter {
+      font-size: 7px;
+      text-align: center;
+      position: relative;
+      height: 8px;
+      width:auto;
       left: 50%;
       top: 20px;
       transform: translate(-50%);

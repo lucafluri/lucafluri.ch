@@ -41,6 +41,26 @@ p {
   position: relative;
 }
 
+/* unvisited link */
+a:link {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* selected link */
+a:active {
+    color: rgba(0, 0, 0, 0);
+}
+
 
 
 #title{

@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-
-
 * {
   @include box-sizing;
   line-height: 1.5;
@@ -22,7 +19,6 @@ h1 {
 html {
   min-height: 100%;
   margin: 0;
-
 }
 
 body {
@@ -30,7 +26,7 @@ body {
   height: 100%;
   margin: 0;
   margin-left: 3em;
-  margin-right:3em;
+  margin-right: 3em;
 }
 
 p {
@@ -42,81 +38,81 @@ p {
 }
 
 
-
 /* unvisited link */
+
 a:link {
-    color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }
+
 
 /* visited link */
+
 a:visited {
-    color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }
+
 
 /* mouse over link */
+
 a:hover {
-    color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }
+
 
 /* selected link */
+
 a:active {
-    color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }
 
-
-
-#title{
+#title {
   text-align: center;
   position: relative;
   top: 0;
-
 }
 
 #subtitle {
-    font-family: 'Ubuntu Mono', monospace;
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
-    color: #595959;
-    text-align: center;
-    position: relative;
+  font-family: 'Ubuntu Mono', monospace;
+  font-style: normal;
+  font-style: normal;
+  font-size: 20px;
+  color: #595959;
+  text-align: center;
+  position: relative;
 }
 
 #socials {
-    font-family: 'Ubuntu Mono', monospace;
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
-    color: #e9f100;
-    text-align: center;
-    position: relative;
+  font-family: 'Ubuntu Mono', monospace;
+  font-style: normal;
+  font-style: normal;
+  font-size: 20px;
+  color: #e9f100;
+  text-align: center;
+  position: relative;
 }
 
 #icons {
-    width: 42px;
-    height: 42px;
+  width: 42px;
+  height: 42px;
 }
 
 #Titles {
-    position: relative;
-    top: 100px;
-    left: 50%;
-    transform: translate(-50%);
+  position: relative;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-
-#thumbs{
+#thumbs {
   position: relative;
   display: inline-block;
   top: 150px;
   width: 100%;
   margin: auto;
-
   text-align: center;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%)
-
 }
 
 #thumb {
@@ -126,8 +122,8 @@ a:active {
   display: inline-block;
 }
 
-#athumb{
-  display:inline-block;
+#athumb {
+  display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
   margin-right: 10px;
@@ -144,7 +140,6 @@ a:active {
   margin-bottom: 10px;
   float: center;
   display: inline-block;
-
 }
 
 .overlay {
@@ -161,7 +156,7 @@ a:active {
 }
 
 .textOverlay:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #overText {
@@ -175,186 +170,146 @@ a:active {
   text-align: center;
 }
 
-
-
-
-
-
-
-
 #profilePic {
   width: 150px;
   height: 150px;
   -webkit-border-radius: 75px;
-  -moz-border-radius: 75px
-  border-radius: 75px;
+  -moz-border-radius: 75px border-radius: 75px;
   position: relative;
   margin: auto;
   top: 50px;
   left: 50%;
   transform: translate(-50%);
-
 }
 
-
-
-
 #credits {
-    font-size: 7px;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    top: 150px;
-    transform: translate(-50%);
+  font-size: 7px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%);
 }
 
 #counter {
-    font-size: 7px;
-    text-align: center;
-    position: relative;
-    height: 8px;
-    width:auto;
-    left: 50%;
-    top: 150px;
-    transform: translate(-50%);
+  font-size: 7px;
+  text-align: center;
+  position: relative;
+  height: 8px;
+  width: auto;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%);
 }
 
 @media (min-width: 800px) {
-
   body {
-      background: -webkit-radial-gradient(#252525, #202020) fixed;
-      /* For Safari 5.1 to 6.0 */
-      background: -o-radial-gradient(#252525, #202020) fixed;
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-radial-gradient(#252525, #202020) fixed;
-      /* For Firefox 3.6 to 15 */
-      background: radial-gradient(#252525, #202020) fixed;
-      /* Standard syntax */
-      background-repeat: repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-attachment: fixed;
+    background: -webkit-radial-gradient(#252525, #202020) fixed;
+    /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#252525, #202020) fixed;
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#252525, #202020) fixed;
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#252525, #202020) fixed;
+    /* Standard syntax */
+    background-repeat: repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
   }
-
 }
-
 
 @media (max-width: 800px) {
   body {
     background-color: #202020;
   }
-
   h1 {
-      font-size: 70px;
-      line-height: normal;
+    font-size: 70px;
+    line-height: normal;
   }
-
-  #title{
+  #title {
     text-align: center;
     position: relative;
     top: 0;
-
   }
-
   #subtitle {
-      font-family: 'Ubuntu Mono', monospace;
-      font-style: normal;
-      font-style: normal;
-      font-size: 20px;
-      color: #e9f100;
-      text-align: center;
-      position: relative;
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #e9f100;
+    text-align: center;
+    position: relative;
   }
-
   #socials {
-      font-family: 'Ubuntu Mono', monospace;
-      font-style: normal;
-      font-style: normal;
-      font-size: 20px;
-      color: #e9f100;
-      text-align: center;
-      position: relative;
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #e9f100;
+    text-align: center;
+    position: relative;
   }
-
   #icons {
-      width: 42px;
-      height: 42px;
+    width: 42px;
+    height: 42px;
   }
-
   #Titles {
-      position: relative;
-      top: -20px;
-      left: 50%;
-
+    position: relative;
+    top: -20px;
+    left: 50%;
   }
-
-
-  #thumbs{
+  #thumbs {
     margin: auto;
     position: relative;
     top: 25px;
     text-align: center;
-
     margin: auto;
     text-align: center;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%)
   }
-
   #thumb {
     position: relative;
     width: 192px;
     height: 108px;
   }
-
-  #athumb{
-    display:inline-block;
+  #athumb {
+    display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
   }
-
-
-
-
   #profilePic {
     width: 100px;
     height: 100px;
     -webkit-border-radius: 75px;
-    -moz-border-radius: 75px
-    border-radius: 75px;
+    -moz-border-radius: 75px border-radius: 75px;
     position: relative;
     margin: auto;
     top: 50px;
     left: 50%;
-
-
   }
-
-
-
   #credits {
-      font-size: 7px;
-      text-align: center;
-      position: relative;
-      left: 50%;
-      top: 20px;
-      transform: translate(-50%);
+    font-size: 7px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
   }
-
   #counter {
-      font-size: 7px;
-      text-align: center;
-      position: relative;
-      height: 8px;
-      width:auto;
-      left: 50%;
-      top: 20px;
-      transform: translate(-50%);
+    font-size: 7px;
+    text-align: center;
+    position: relative;
+    height: 8px;
+    width: auto;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
   }
-
 }

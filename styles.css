@@ -204,13 +204,13 @@ a:active {
 
 @media (min-width: 800px) {
   body {
-    background: -webkit-radial-gradient(#202124, #17181C) fixed;
+    background: -webkit-radial-gradient(#17181C, #202124) fixed;
     /* For Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(#202124, #17181C) fixed;
+    background: -o-radial-gradient(#17181C, #202124) fixed;
     /* For Opera 11.1 to 12.0 */
-    background: -moz-radial-gradient(#202124, #17181C) fixed;
+    background: -moz-radial-gradient(#17181C, #202124) fixed;
     /* For Firefox 3.6 to 15 */
-    background: radial-gradient(#202124, #17181C) fixed;
+    background: radial-gradient(#17181C, #202124) fixed;
     /* Standard syntax */
     background-repeat: repeat;
     background-size: cover;
@@ -223,7 +223,7 @@ a:active {
 
 @media (max-width: 800px) {
   body {
-    background-color: #202020;
+    background-color: #202124;
   }
   h1 {
     font-size: 70px;
